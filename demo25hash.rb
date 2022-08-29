@@ -7,3 +7,6 @@ puts "#{a2["def"]}"
 
 a3= Hash[a: 100,b: 200]
 puts a3[:a]
+String str ="hello"
+puts str.hash
+puts a2
