@@ -9,6 +9,9 @@ class Demo1
         a1= @x % @y
         throw :harshitArithmaticex if a1==0 
         return a1
+        catch :harshitArithmaticex do
+            
+        end
     end
 end
 aa=Demo1.new(10,2)
